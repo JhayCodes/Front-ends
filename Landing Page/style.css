@@ -1,2 +1,75 @@
+header{
+    background-color: #2F1893;
+}
+.mask{
+    width: 60%;   
+    color:#FFF;
+    font-family: DM Sans, sans-serif;
+    font-size: 18px;
+    text-align: center; 
+    padding-top: 30px;
+    margin: auto;
+    
+}
+
+h2{
+    text-align: left;
+    width: 50%;
+    margin:auto;
+    
+}
+
+#top {
+    font-size: 8px;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    margin-top:4px;
+    border: 3px solid red;
+    margin-bottom: 120px;
+}
+
+.user{
+    font-size: 12px;
+    display: flex;
+    margin: auto;
+    width: 50%;
+} 
+
+.userpic img{
+    height: 68px;
+    padding-top: 18px;
+}
+
+.name{
+    text-align: left;
+    font-family: DM Sans;
+    padding-left: 15px;
+    padding-top: 4px;
+}
+
+.name h4{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.name p{
+    font-size: 10px;
+    margin-top: 3px;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+    
+}
+li{
+    display: inline-block;
+    padding-right: 7px;
+    
+}
+
+li a{
+    color: white;
+}
+
 
 
