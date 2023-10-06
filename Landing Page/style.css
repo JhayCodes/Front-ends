@@ -12,20 +12,21 @@ header{
     
 }
 
-h2{
+.mask h2{
     text-align: left;
-    width: 50%;
+    width: 100%;
     margin:auto;
+    font-size: 45px;
     
 }
 
 #top {
     font-size: 8px;
-    width: 50%;
+    width: 100%;
     margin: auto;
     text-align: left;
     margin-top:4px;
-    border: 3px solid red;
+    font-size:10px;
     margin-bottom: 120px;
 }
 
@@ -33,7 +34,8 @@ h2{
     font-size: 12px;
     display: flex;
     margin: auto;
-    width: 50%;
+    width: 100%;
+    padding-bottom: 45px;
 } 
 
 .userpic img{
@@ -51,25 +53,48 @@ h2{
 .name h4{
     font-size: 12px;
     margin-bottom: 0px;
+    color: white;
 }
 .name p{
     font-size: 10px;
     margin-top: 3px;
 }
-ul{
+.user ul{
     list-style-type: none;
     padding-left: 0px;
     
 }
-li{
+.user li{
     display: inline-block;
     padding-right: 7px;
-    
 }
 
-li a{
-    color: white;
+article ul{
+    list-style-type: disc;
+}
+article li{
+    color: #2F1893;
+    padding-bottom: 6px;
 }
 
+article{
+    margin: auto;
+    width: 60%;
+    font-family: DM Sans;
+    font-size: 14px;
+}
+
+article h2{
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 8px;
+    color: #1E0E62;
+    font-size: 30px;
+}
+
+h4{
+    color: #1E0E62; 
+    font-weight: 4px;
+}
 
 
