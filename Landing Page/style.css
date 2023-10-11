@@ -97,4 +97,7 @@ h4{
     font-weight: 4px;
 }
 
-
+.main{
+    display: flex;
+    
+}
