@@ -99,11 +99,58 @@ h4{
 
 .main{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 20px;
 }
 
+.main h3{
+    color: #1E0E62;
+    font-size: 30px;
+    border:solid 3px;
+    margin-bottom: 0px;
+}
 .section1{
-    width: 70%;
-    background: blue;
+    width: 60%;
+    border:3px solid red;
+    margin-right: ;
+    
+}
+.section2{
+    width: 35%;
+    margin-top: 10px;
+    margin-right: 0px;
+    
 }
 
+.section2 div{
+    display: flex;
+    justify-content: space-around;
+    padding-left:0px;
+    align-items:self-start;
+}
+
+.section2 div img {
+    margin: 20px;
+}
+
+#date{
+    margin-top: 0px;
+    color:rgba(21, 20, 57, 0.40);
+    font-size:12px;
+}
+
+h5{
+    color:#1E0E62;
+    font-size: 20px;
+}
+
+
+.section1 span{
+    margin-top: 0px;
+    color:rgba(21, 20, 57, 0.40);
+    font-size:12px;
+}
+
+.section2{
+    border:red 3px solid;
+}
