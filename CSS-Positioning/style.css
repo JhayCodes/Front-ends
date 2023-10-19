@@ -1,0 +1,110 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px ;
+    grid-template-rows: 90px 90px 90px ;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/*hide horizontal scroll botton*/
+body{
+    overflow-x: hidden;
+}
+
+.item-1{
+    background-color: blue;
+    border-radius: 10px;
+    margin:2px;
+    position: absolute; /* removes this item from the document--*/
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    z-index: -1; /*places item-1 beneath element*/
+}
+
+.item-2{
+    background-color: red;
+    border-radius: 10px;
+    margin:2px;
+    opacity: 0.3; /*dims the brigtness of item-2*/
+}
+
+.item-3{
+    background-color: green;
+    border-radius: 10px;
+    margin:2px;
+    position: relative; /*item remains in the normal flow of the document*/
+    top:50px; /*pushes item-3 50px from the top*/
+    left:40px; /*pushes item-3 40px from the left*/
+
+}
+
+.item-4{
+    background-color: darksalmon;
+    border-radius: 10px;
+    margin:2px;
+    position:fixed; /*works like the absolute, removes item-4 from the normal flow
+                    of the document and fix it at the position specified even when scrolling*/
+    top:0px;
+    left: 60px;
+    width: 2000px;
+    height: 20px;
+    z-index: -1;
+}
+
+.item-5{
+    background-color: magenta;
+    border-radius: 10px;
+    margin:2px;
+}
+
+
+.item-6{
+    background-color: coral;
+    border-radius: 10px;
+    margin:2px;
+}
+
+
+.item-7{
+    background-color: darkkhaki;
+    border-radius: 10px;
+    margin:2px;
+    position:sticky; /*works with left, right, top, down attributes*/
+    top:30px; /*specifies position to trigger effect. ei when scolling down, item-7 will scroll along until it is 30px from the top then it sticks itself 30px to the top*/
+}
+
+
+.item-8{
+    background-color: darkblue;
+    border-radius: 10px;
+    margin:2px;
+}
+
+
+.item-9{
+    background-color: saddlebrown;
+    border-radius: 10px;
+    margin:2px;
+}
+
+
+.item-10{
+    background-color: lime;
+    border-radius: 10px;
+    margin:2px;
+}
+
+.item-11{
+    background-color: goldenrod;
+    border-radius: 10px;
+    margin:2px;
+}
+
+
+.item-12{
+    background-color: grey;
+    border-radius: 10px;
+    margin:2px;
+}
