@@ -1,0 +1,21 @@
+.btn{
+    font-size: 2rem;
+    font-weight: 700;
+    border: 10px solid red;
+    padding: 0.5em 1em;
+    color: red;
+    background-color: rosybrown;
+    border-radius: 5px;
+
+    transition-property: transform, background-color, color; /* can be all, Defines which property the transition effect should be applied to */
+    transition-duration: 0.3s ; /*Defines how long it takes to complete*/
+    transition-timing-function: ease; /* eg: ease-in, ease-out, linear...*/
+    transition-delay: 0s; /*Defines time taken for transition to start*/
+
+}
+
+.btn:hover{
+    transform: translateY(-10px);
+    background-color: red;
+    color:white;
+}
