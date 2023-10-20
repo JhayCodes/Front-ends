@@ -1,0 +1,33 @@
+section{
+    width: 160px;
+    margin-top: 180px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes slideInleft {
+    from{
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+.heading-1{
+    /* name: selecting keyframe
+       duration: time taken to complete 1 lap
+       timing-function: defines acceleration curve
+       delay: time taken to start animation
+       iteration-count: how many times animtion should run
+       animation-direction: whether to run normal or reverse
+       fill-mode: how it applies our keyframes before and after animation*/
+    animation: slideInleft 1s ease-in 1s 1 normal both;
+
+    transform: translateX(-150px);
+}
+
