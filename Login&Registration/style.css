@@ -3,14 +3,42 @@ body{
     color: white;
 }
 
-.login{
-    background-color: white;
-    color: black;
-    max-width: 60%;
+#container{
+    max-width: 500px;
     margin: 0 auto;
-    border-radius: 7px;
+    margin-top: 30vh
+}
+
+.login{
+    background-color: gray;
+    color: black;
+    padding:8px;
+    border-radius: 12px;
+    /* max-width: 60%;
+    margin: 0 auto;
+    
     padding: 8px;
-    margin-top: 20vh;
+    margin-top: 20vh; */
+}
+
+h2{
+    margin: 0 auto;
+    
+}
+
+#btn{
+    border: none;
+    color: whitesmoke;
+    background-color: green;
+    font-weight: 600;
+
+    padding: 12px 24px;
+    border-radius: 50px;
+
+    margin: 0 auto;
+    display: block;
+
+    cursor: pointer;
 }
 
 .login input{
